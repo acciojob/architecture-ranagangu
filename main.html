@@ -1,16 +1,122 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Architecture Overview</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f3;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
 
+    .container {
+      width: 1100px;
+      background-color: #fff;
+      padding: 20px;
+      margin: 30px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+    }
+
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .imageContainer img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    td {
+      padding: 15px;
+      vertical-align: top;
+      border: 1px solid #ccc;
+    }
+
+    .left, .right {
+      width: 200px;
+    }
+
+    .middle {
+      width: 600px;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    td img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    p.description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="container">
+
+    <h1>Exploring Architectural Marvels</h1>
+    <p class="description">A glimpse into the world of structural beauty and intelligent design</p>
+
+    <!-- Header Image -->
+    <div class="imageContainer">
+      <img src="https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1100&q=80" alt="Architecture Banner">
+    </div>
+
+    <!-- Content Table -->
+    <table>
+      <tr>
+        <td class="left">
+          <img src="https://images.unsplash.com/photo-1599423300746-b62533397364?auto=format&fit=crop&w=200&q=80" alt="Modern Building 1">
+        </td>
+        <td class="middle">
+          Architecture is the art and science of designing buildings and structures. From ancient temples to futuristic skyscrapers, architecture reflects our culture, technology, and aspirations. It combines aesthetics with function to create spaces that inspire and serve.
+        </td>
+        <td class="right">
+          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=200&q=80" alt="Modern Building 2">
+        </td>
+      </tr>
+      <tr>
+  <td class="left">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=150&q=80" alt="Modern Architecture 1">
+  </td>
+  <td class="middle">
+    Modern architecture emphasizes minimalism, sustainability, and open space. Architects today integrate green materials, smart systems, and innovative shapes to build environments that are both beautiful and environmentally responsible.
+  </td>
+  <td class="right">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=150&q=80" alt="Modern Architecture 2">
+  </td>
+</tr>
+
+    </table>
+
+  </div>
 
 </body>
-
 </html>
